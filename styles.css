@@ -1,0 +1,181 @@
+
+nav{display: flex;
+    justify-content: center;
+    background-color:#096088d7 ;}
+    nav ul{
+    display: flex}
+    nav li{display: block;
+        margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;}
+    .header-con{background-color: #3faab2;
+    font-style: italic;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    }
+    nav li a{text-decoration: none;}
+    .header-con h1{justify-content: center;
+    margin: 25px;}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #E1D7B7;
+}
+.header-con{background-color: #7C93C3;
+    font-style: italic;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    }
+    .header-con h1{justify-content: center;
+    margin: 25px;}
+.hero {
+    background: url('bghero.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(245, 23, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.contact-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.instagram img {
+    filter: invert(21%) sepia(91%) saturate(7482%) hue-rotate(315deg) brightness(95%) contrast(103%);
+}
+
+
+.youtube img {
+    filter: invert(18%) sepia(95%) saturate(6464%) hue-rotate(355deg) brightness(88%) contrast(120%);
+}
+
+.github img {
+    filter: invert(7%) sepia(97%) saturate(2278%) hue-rotate(329deg) brightness(88%) contrast(107%);
+}
+
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.header-con img{
+    width: 95px; 
+    height: 95px; 
+    border-radius: 50%;
+    object-fit: cover; 
+  
+}
+
+
+#about{
+    font-style: bold;
+    font-family: 'Lucida Console' Monospace;
+    font-size: xx-large;
+}
+
+.about-txt{
+    font-style: bold;
+    font-size: 30px;
+    font-family: 'Copperplate Gothic';
+    src: url('fonts/CopperplateGothic-Regular.woff2') format('woff2'),
+         url('fonts/CopperplateGothic-Regular.woff') format('woff'),
+         url('fonts/CopperplateGothic-Regular.ttf') format('truetype');
+    text-decoration: black;
+}
+
+.headi{
+    font-style: bold;
+    font-size: larger;
+}
+

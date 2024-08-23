@@ -1,0 +1,227 @@
+nav{display: flex;
+justify-content: center;
+background-color:#096088d7 ;}
+nav ul{
+display: flex}
+nav li{display: block;
+    margin: 0 15px;
+text-decoration: none;
+font-size: 20px;}
+.header-con{background-color: #3faab2;
+font-style: italic;
+padding: 15px;
+justify-content: center;
+display: flex;
+}
+nav li a{text-decoration: none;}
+.header-con h1{justify-content: center;
+margin: 25px;}
+.section1{   background: url('bghero.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(245, 23, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.section1 p{font-size: 25px;
+font-family: 'Georgia', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0 15px;
+font-style: bold;
+color:#F8F6F0;
+font-family: 'Copperplate' fantasy;
+font-size: 50px;}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.header-con img{
+        width: 95px; 
+        height: 95px; 
+        border-radius: 50%;
+        object-fit: cover; 
+      
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.section2 {
+    padding: 4px;
+    color:#F8F6F0   ;
+
+}
+.section2 h2 {color: #333;}
+.section2.project-card {
+    padding: 4px;
+    color:#c4bfb0;
+
+}
+.section2 p {color: #333;}
+.section2 a {color: #333;}
+.section2 h3 {color: #333;}
+.contact-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.instagram img {
+    filter: invert(21%) sepia(91%) saturate(7482%) hue-rotate(315deg) brightness(95%) contrast(103%);
+}
+
+
+.youtube img {
+    filter: invert(18%) sepia(95%) saturate(6464%) hue-rotate(355deg) brightness(88%) contrast(120%);
+}
+
+.github img {
+    filter: invert(7%) sepia(97%) saturate(2278%) hue-rotate(329deg) brightness(88%) contrast(107%);
+}
+
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.social-icon{
+    gap: 100px;
+}
+
+.horline{
+    border: 1px;
+}
+.contact-us{background-color: rgb(224, 201, 170);
+padding: 5px;}
+.contact-us h1{justify-content: center;
+background-color: none; 
+justify-items: center;
+font-size: 45px;
+}
+.contact-us p {font-size: 30px;}
+  
+  .columns {
+    float: left;
+    width: 32%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+  .box1{
+    background-color:rgb(224, 201, 170);
+    display:flex;
+    justify-content: center;
+    padding: 70px;
+    gap: 90px;
+  }
+
+
+    .inputbox{
+        background-color: #3faab2;
+        border-radius: 8px;
+    }
